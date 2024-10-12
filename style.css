@@ -1,0 +1,56 @@
+body {
+  font-family: "Roboto Sans MS", sans-serif;
+  text-align: center;
+  background-color: #13141c;
+  color: #fff;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3em;
+  margin-bottom: 20px;
+  margin: auto;
+  justify-content: right;
+  
+}
+
+h5 {
+  color: #fff;
+  font-size: 1em;
+  margin-bottom: 20px;
+  margin: auto;
+  justify-content: right;
+  margin-bottom: 20px;
+  
+}
+
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);   
+	gap: 5px; 
+	padding: none;
+	width:80%;
+	margin: auto;
+}
+
+.gallery img {
+	width: 100%; /* Set a specific width */
+	height:auto; /* Set the same height to make a perfect circle */
+	border-radius: 20%; /* Makes the image circular */
+
+
+}
+
+
+
+footer {
+	display:grid;
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #888;
+}
